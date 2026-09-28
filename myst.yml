@@ -1,0 +1,34 @@
+version: 1
+project:
+  title: My Jupyter Book
+  authors:
+    - name: The Jupyter Book community
+  copyright: '2023'
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+  github: executablebooks/jupyter-book
+  thebe:
+    binder:
+      repo: executablebooks/jupyter-book
+      provider: github
+      url: ''
+      ref: master
+  toc:
+    - file: index.ipynb
+    - file: Teste.ipynb
+    - file: secao_graficos_funcoes_afins.ipynb
+    - file: ZeroECoeficienteAngular.ipynb
+    - file: distratores.ipynb
+    - file: Aplicacoes.ipynb
+    - file: testeENEM.ipynb
+site:
+  options:
+    logo: ''
+    favicon: ''
+    analytics_google: ''
+    analytics_plausible: ''
+    folders: true
+  template: book-theme

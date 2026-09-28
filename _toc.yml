@@ -1,0 +1,7 @@
+format: jb-book
+root: index
+chapters:
+  - file: index
+  - file: Teste
+  - file: secao_graficos_funcoes_afins
+  - file: graficos

@@ -1,0 +1,20 @@
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Resultados de compilação do Jupyter Book
+_build/
+.jupyter_cache/
+.jupyterbook/
+
+# Configurações locais
+.vscode/
+# MyST build outputs
+_build
+*.bak
